@@ -42,3 +42,43 @@ target_link_libraries( # Specifies the target library.
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )
+
+#########################################################
+#### ARTOOLKIT #############
+#########################################################
+
+# configure folders
+set(artoolkitLibsDIR ${CMAKE_SOURCE_DIR}/../../artoolkit_libs/artoolkit_Libs)
+set(artoolkitIncludeDIR ${CMAKE_SOURCE_DIR}/../../artoolkit_libs/artoolkit_Include)
+
+##################### shared library #####################
+
+add_library(lib_shared SHARED IMPORTED)
+set_target_properties(lib_shared PROPERTIES IMPORTED_LOCATION
+    ${artoolkitLibsDIR}/${ANDROID_ABI}/libc++_shared.so)
+
+# build application's shared lib
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
+
+##################### nftSimpleLibrary ###################
+add_library( # Sets the name of the library.
+             nftSimpleNative
+
+             # Sets the library as a shared library.
+             SHARED
+
+             # Provides a relative path to your source file(s).
+             src/main/cpp/nftSimple.cpp
+             src/main/cpp/ARMarkerNFT.c
+             src/main/cpp/color_convert_common.c
+             src/main/cpp/trackingSub.c )
+
+target_include_directories(nftSimpleNative PRIVATE
+                           ${artoolkitIncludeDIR} )
+
+target_link_libraries( # Specifies the target library.
+                       nftSimpleNative
+
+                       # libs
+                       ${log-lib}
+                       lib_shared )
