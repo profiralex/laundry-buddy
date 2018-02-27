@@ -20,7 +20,11 @@ android {
         }
     }
     buildTypes {
+        debug {
+            buildConfigField "String", "EASY_AR_KEY", easyARKey
+        }
         release {
+            buildConfigField "String", "EASY_AR_KEY", easyARKey
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
