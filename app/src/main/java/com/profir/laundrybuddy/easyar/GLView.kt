@@ -6,7 +6,7 @@
 //
 //================================================================================================================================
 
-package com.profir.laundry_buddy.easyar
+package com.profir.laundrybuddy.easyar
 
 import android.content.Context
 import android.opengl.GLSurfaceView

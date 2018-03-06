@@ -1,4 +1,4 @@
-package com.profir.laundry_buddy
+package com.profir.laundrybuddy
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.profir.laundry_buddy", appContext.packageName)
+        assertEquals("com.profir.laundrybuddy", appContext.packageName)
     }
 }

@@ -6,7 +6,7 @@
 //
 //================================================================================================================================
 
-package com.profir.laundry_buddy.easyar
+package com.profir.laundrybuddy.easyar
 
 import android.opengl.GLES20
 import android.util.Log

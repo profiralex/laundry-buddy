@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.profir.laundry_buddy">
+    package="com.profir.laundrybuddy">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".easyar.MainARActivity"
+            android:name="com.profir.laundrybuddy.easyar.MainARActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:label="@string/app_name"
             android:screenOrientation="unspecified">

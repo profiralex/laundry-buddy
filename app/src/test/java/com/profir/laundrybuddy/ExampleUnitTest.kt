@@ -1,4 +1,4 @@
-package com.profir.laundry_buddy
+package com.profir.laundrybuddy
 
 import org.junit.Test
 

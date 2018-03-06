@@ -6,7 +6,7 @@
 //
 //================================================================================================================================
 
-package com.profir.laundry_buddy.easyar
+package com.profir.laundrybuddy.easyar
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -20,8 +20,8 @@ import android.view.MenuItem
 import android.view.ViewGroup
 import android.view.WindowManager
 import cn.easyar.Engine
-import com.profir.laundry_buddy.BuildConfig
-import com.profir.laundry_buddy.R
+import com.profir.laundrybuddy.BuildConfig
+import com.profir.laundrybuddy.R
 
 class MainARActivity : AppCompatActivity() {
     companion object {

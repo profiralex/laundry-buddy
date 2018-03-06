@@ -1,8 +1,7 @@
-package com.profir.laundry_buddy
+package com.profir.laundrybuddy
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
