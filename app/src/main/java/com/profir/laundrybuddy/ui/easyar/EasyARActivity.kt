@@ -6,7 +6,7 @@
 //
 //================================================================================================================================
 
-package com.profir.laundrybuddy.easyar
+package com.profir.laundrybuddy.ui.easyar
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -23,7 +23,7 @@ import cn.easyar.Engine
 import com.profir.laundrybuddy.BuildConfig
 import com.profir.laundrybuddy.R
 
-class MainARActivity : AppCompatActivity() {
+class EasyARActivity : AppCompatActivity() {
     companion object {
         //
         // Steps to create the key for this sample:
