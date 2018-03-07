@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ui.main.MainActivity">
+        <activity android:name=".ui.main.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +25,7 @@
         <activity
             android:name="com.profir.laundrybuddy.ui.easyar.EasyARActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:screenOrientation="unspecified" />
+            android:screenOrientation="unspecified"
+            android:theme="@style/FullScreenTheme.Dark" />
     </application>
 </manifest>

@@ -1,14 +1,13 @@
-package com.profir.laundrybuddy.ui.main
+package com.profir.laundrybuddy.ui.main.activities
 
-import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.profir.laundrybuddy.ui.easyar.EasyARActivity
+import com.profir.laundrybuddy.R
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        startActivity(Intent(this, EasyARActivity::class.java))
+        setContentView(R.layout.activity_main)
     }
 }
