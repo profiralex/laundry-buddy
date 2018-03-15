@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.main.activities.MainActivity">
+
+    <item
+        android:id="@+id/mainMenuList"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_list_dark"
+        android:title="@string/all_symbols" />
+
+    <item
+        android:id="@+id/mainMenuScan"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_camera_dark"
+        android:title="@string/scan" />
+
+    <item
+        android:id="@+id/mainMenuAbout"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_help_outline_dark"
+        android:title="@string/about" />
+</menu>

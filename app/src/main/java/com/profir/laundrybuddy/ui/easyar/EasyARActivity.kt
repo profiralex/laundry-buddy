@@ -114,7 +114,7 @@ class EasyARActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.menu_main, menu)
+        menuInflater.inflate(R.menu.easy_ar, menu)
         return true
     }
 

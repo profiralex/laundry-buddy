@@ -18,9 +18,13 @@
         android:id="@+id/mainFragmentBottomNV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/black"
+        android:background="@color/bg_light"
+        app:elevation="5dp"
+        app:itemIconTint="@color/main_menu_colors"
+        app:itemTextColor="@color/main_menu_colors"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/main" />
 
 </android.support.constraint.ConstraintLayout>
