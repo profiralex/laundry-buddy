@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
 import com.profir.laundrybuddy.ui.about.fragments.AboutFragment
+import com.profir.laundrybuddy.ui.scan.fragments.ScanFragment
 import com.profir.laundrybuddy.ui.symbols.fragments.SymbolsFragment
 
 /**
@@ -14,7 +15,7 @@ class MainAdapter(manager: FragmentManager) : FragmentPagerAdapter(manager) {
     override fun getItem(position: Int): Fragment {
         return when (position) {
             0 -> SymbolsFragment()
-            1 -> SymbolsFragment()
+            1 -> ScanFragment()
             2 -> AboutFragment()
             else -> throw IllegalArgumentException("Page not handled")
         }
