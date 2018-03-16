@@ -8,7 +8,6 @@
         android:id="@+id/mainFragmentVP"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/mainFragmentBottomNV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
