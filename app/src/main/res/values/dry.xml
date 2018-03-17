@@ -1,0 +1,43 @@
+<resources>
+    <string name="tumble_dry_gentle_title">Tumble dry, gentle</string>
+    <string name="tumble_dry_gentle_description">Wash normal description</string>
+
+    <string name="tumble_dry_permanent_press_title">Tumble dry, permanent press</string>
+    <string name="tumble_dry_permanent_press_description">Wash normal description</string>
+
+    <string name="tumble_dry_heat_high_title">Tumble dry, normal, high heat</string>
+    <string name="tumble_dry_heat_high_description">Wash normal description</string>
+
+    <string name="tumble_dry_heat_low_title">Tumble dry, normal, low heat</string>
+    <string name="tumble_dry_heat_low_description">Wash normal description</string>
+
+    <string name="tumble_dry_heat_medium_title">Tumble dry, normal, medium heat</string>
+    <string name="tumble_dry_heat_medium_description">Wash normal description</string>
+
+    <string name="tumble_dry_heat_no_title">Tumble dry, normal, no heat</string>
+    <string name="tumble_dry_heat_no_description">Wash normal description</string>
+
+    <string name="tumble_dry_normal_title">Tumble dry, normal</string>
+    <string name="tumble_dry_normal_description">Wash normal description</string>
+
+    <string name="tumble_dry_no_title">Do not tumble dry</string>
+    <string name="tumble_dry_no_description">Wash normal description</string>
+
+    <string name="dry_drip_title">Drip dry</string>
+    <string name="dry_drip_description">Wash normal description</string>
+
+    <string name="dry_flat_title">Dry flat</string>
+    <string name="dry_flat_description">Wash normal description</string>
+
+    <string name="dry_line_title">Line dry</string>
+    <string name="dry_line_description">Wash normal description</string>
+
+    <string name="dry_no_title">No not dry</string>
+    <string name="dry_no_description">Wash normal description</string>
+
+    <string name="dry_shade_title">Dry in shade</string>
+    <string name="dry_shade_description">Wash normal description</string>
+
+    <string name="dry_wring_no_title">Do not wring</string>
+    <string name="dry_wring_no_description">Wash normal description</string>
+</resources>
