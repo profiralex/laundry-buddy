@@ -9,7 +9,7 @@ import com.profir.laundrybuddy.ui.main.viewmodels.MainViewModel
  */
 abstract class BaseContentFragment : Fragment() {
 
-    protected val mainVM: MainViewModel by lazy { ViewModelProviders.of(activity!!).get(MainViewModel::class.java) }
+    private val mainVM by lazy { ViewModelProviders.of(activity!!).get(MainViewModel::class.java) }
     protected abstract val title: String
 
     override fun setUserVisibleHint(isVisibleToUser: Boolean) {

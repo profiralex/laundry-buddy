@@ -1,0 +1,52 @@
+<resources>
+    <string name="wash_normal_title">Machine Wash, normal</string>
+    <string name="wash_normal_description">Wash normal description</string>
+
+    <string name="wash_delicate_title">Machine Wash, delicate</string>
+    <string name="wash_delicate_description">Wash normal description</string>
+
+    <string name="wash_hand_title">Hand wash</string>
+    <string name="wash_hand_description">Wash normal description</string>
+
+    <string name="wash_no_title">Do not wash</string>
+    <string name="wash_no_description">Wash normal description</string>
+
+    <string name="wash_permanent_press_title">Machine wash, permanent press</string>
+    <string name="wash_permanent_press_description">Wash normal description</string>
+
+    <string name="wash_temperature_30_title">Machine wash, max 30\u2103 or 85\u2109</string>
+    <string name="wash_temperature_30_description">Wash normal description</string>
+
+    <string name="wash_temperature_40_title">Machine wash, max 40\u2103 or 105\u2109</string>
+    <string name="wash_temperature_40_description">Wash normal description</string>
+
+    <string name="wash_temperature_50_title">Machine wash, max 50\u2103 or 125\u2109</string>
+    <string name="wash_temperature_50_description">Wash normal description</string>
+
+    <string name="wash_temperature_60_title">Machine wash, max 60\u2103 or 140\u2109</string>
+    <string name="wash_temperature_60_description">Wash normal description</string>
+
+    <string name="wash_temperature_70_title">Machine wash, max 70\u2103 or 160\u2109</string>
+    <string name="wash_temperature_70_description">Wash normal description</string>
+
+    <string name="wash_temperature_95_title">Machine wash, max 95\u2103 or 205\u2109</string>
+    <string name="wash_temperature_95_description">Wash normal description</string>
+
+    <string name="wash_temperature_30_celsius_title">Machine wash, max 30\u2103 or 85\u2109</string>
+    <string name="wash_temperature_30_celsius_description">Wash normal description</string>
+
+    <string name="wash_temperature_40_celsius_title">Machine wash, max 40\u2103 or 105\u2109</string>
+    <string name="wash_temperature_40_celsius_description">Wash normal description</string>
+
+    <string name="wash_temperature_50_celsius_title">Machine wash, max 50\u2103 or 125\u2109</string>
+    <string name="wash_temperature_50_celsius_description">Wash normal description</string>
+
+    <string name="wash_temperature_60_celsius_title">Machine wash, max 60\u2103 or 140\u2109</string>
+    <string name="wash_temperature_60_celsius_description">Wash normal description</string>
+
+    <string name="wash_temperature_70_celsius_title">Machine wash, max 70\u2103 or 160\u2109</string>
+    <string name="wash_temperature_70_celsius_description">Wash normal description</string>
+
+    <string name="wash_temperature_95_celsius_title">Machine wash, max 95\u2103 or 205\u2109</string>
+    <string name="wash_temperature_95_celsius_description">Wash normal description</string>
+</resources>

@@ -3,11 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/symbolsFragmentTV"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/symbolsFragmentRV"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/all_symbols" />
+        android:layout_height="match_parent" />
 
 </android.support.constraint.ConstraintLayout>
