@@ -1,0 +1,19 @@
+<resources>
+    <string name="iron_normal_title">Iron, normal</string>
+    <string name="iron_normal_description">Wash normal description</string>
+
+    <string name="iron_no_title">Do not iron</string>
+    <string name="iron_no_description">Wash normal description</string>
+
+    <string name="iron_steam_no_title">Do not steam</string>
+    <string name="iron_steam_no_description">Wash normal description</string>
+
+    <string name="iron_temperature_low_title">Iron, low</string>
+    <string name="iron_temperature_low_description">Wash normal description</string>
+
+    <string name="iron_temperature_medium_title">Iron, medium</string>
+    <string name="iron_temperature_medium_description">Wash normal description</string>
+
+    <string name="iron_temperature_high_title">Iron, high</string>
+    <string name="iron_temperature_high_description">Wash normal description</string>
+</resources>

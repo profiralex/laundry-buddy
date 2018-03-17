@@ -52,7 +52,15 @@ class SymbolsViewModel : ViewModel() {
                 Symbol(R.string.dry_shade_title, R.string.dry_shade_description, R.drawable.ic_dry_shade),
 
                 // Wring
-                Symbol(R.string.dry_wring_no_title, R.string.dry_wring_no_description, R.drawable.ic_dry_wring_no)
+                Symbol(R.string.dry_wring_no_title, R.string.dry_wring_no_description, R.drawable.ic_dry_wring_no),
+
+                // Iron
+                Symbol(R.string.iron_normal_title, R.string.iron_normal_description, R.drawable.ic_iron_normal),
+                Symbol(R.string.iron_temperature_low_title, R.string.iron_temperature_low_description, R.drawable.ic_iron_temperature_low),
+                Symbol(R.string.iron_temperature_medium_title, R.string.iron_temperature_medium_description, R.drawable.ic_iron_temperature_medium),
+                Symbol(R.string.iron_temperature_high_title, R.string.iron_temperature_high_description, R.drawable.ic_iron_temperature_high),
+                Symbol(R.string.iron_steam_no_title, R.string.iron_steam_no_description, R.drawable.ic_iron_steam_no),
+                Symbol(R.string.iron_no_title, R.string.iron_no_description, R.drawable.ic_iron_no)
         )
     }
 }
